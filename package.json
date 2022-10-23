@@ -1,0 +1,25 @@
+{
+  "name": "metamask-sign-recover-pubkey",
+  "version": "1.0.0",
+  "description": "to recover public key from metamask signature",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pngfi/metamask-sign-recover-pubkey.git"
+  },
+  "author": "steven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pngfi/metamask-sign-recover-pubkey/issues"
+  },
+  "homepage": "https://github.com/pngfi/metamask-sign-recover-pubkey#readme",
+  "dependencies": {
+    "@types/node": "^18.11.3",
+    "@ethersproject/providers": "^5.6.8",
+    "@hanchon/signature-to-pubkey": "^1.0.1",
+    "crypto-addr-codec": "^0.1.7"
+  }
+}
