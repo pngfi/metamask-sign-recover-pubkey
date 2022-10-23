@@ -15,7 +15,7 @@ ethereum
 
 ### So we need get pubkey from signature
 
-![img.png](img.png)
+![img_1.png](img_1.png)
 
 ```ts
   const {ethereum}: any = window;
